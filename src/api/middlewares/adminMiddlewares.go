@@ -4,7 +4,7 @@ import (
     "github.com/labstack/echo"
     "github.com/labstack/echo/middleware"
 )
-
+//SetAdminMiddlewares for admin pages
 func SetAdminMiddlewares(g *echo.Group) {
     // this logs the webserver interaction
     g.Use(middleware.LoggerWithConfig(middleware.LoggerConfig{

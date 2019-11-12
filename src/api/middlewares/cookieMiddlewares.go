@@ -8,6 +8,7 @@ import (
     "github.com/labstack/echo"
 )
 
+//SetCookieMiddlewares  for cookie
 func SetCookieMiddlewares(g *echo.Group) {
     g.Use(checkCookie)
 }

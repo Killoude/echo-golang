@@ -4,7 +4,7 @@ import (
     "github.com/labstack/echo"
     "github.com/labstack/echo/middleware"
 )
-
+//SetMainMiddlewares Static pages redirect
 func SetMainMiddlewares(e *echo.Echo) {
     e.Use(middleware.StaticWithConfig(middleware.StaticConfig{
         Root: "../../static",
