@@ -6,6 +6,7 @@ import (
     "api"
 )
 
+//New -> create new echo
 func New() *echo.Echo {
     e := echo.New()
 
